@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+
+//USD 35.42
+message Money{
+
+    //eg USD
+    string currency_code = 1;
+
+    //eg 35
+    int64 units = 2;
+
+    //eg .42 
+    int32 nanos = 3;
+}

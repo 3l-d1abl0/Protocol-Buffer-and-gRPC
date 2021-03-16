@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+//2018/03/15
+
+message Date{
+
+    //year
+    int32 year = 1;
+
+    //month
+    int32 month = 2;
+
+    //day of month
+    int32 day = 3;
+
+}
