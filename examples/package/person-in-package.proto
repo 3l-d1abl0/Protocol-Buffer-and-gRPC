@@ -1,0 +1,21 @@
+syntax = "proto3":
+
+import "examples/package/date-in-package.proto";
+
+package person;
+
+message Person{
+
+    int32 age =1;
+
+    string first_name = 2;
+    string last_name =3;
+
+    float height = 4;
+
+    repeated string phone_numbers = 5;
+
+    my.date.Date birthday = 6;
+
+}
+
